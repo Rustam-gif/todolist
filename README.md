@@ -11,6 +11,7 @@ This repository rebuilds several lost data science projects as clean, reproducib
 | Football Match Outcome Prediction | Predict English Premier League match results from historical form | pandas, feature engineering, classification, temporal validation |
 | Netflix Content Strategy Analysis | Analyze Netflix catalog trends and classify content type from metadata | EDA, text features, logistic regression, content analytics |
 | Airbnb Price Intelligence | Estimate NYC Airbnb listing prices and identify pricing drivers | data cleaning, regression, categorical encoding, model evaluation |
+| Customer Churn ML Pipeline | Predict telecom customer churn and explain the strongest churn drivers | preprocessing pipelines, imbalanced classification, ROC-AUC, feature importance |
 
 ## How to run
 
@@ -33,6 +34,7 @@ Run a project script:
 python projects/football-match-outcome-prediction/src/football_match_model.py
 python projects/netflix-content-strategy/src/netflix_content_analysis.py
 python projects/airbnb-price-intelligence/src/airbnb_price_model.py
+python projects/customer-churn-ml-pipeline/src/customer_churn_model.py
 ```
 
 Each script creates a `reports/` folder inside its project with model metrics and summary outputs.
@@ -42,6 +44,7 @@ Each script creates a `reports/` folder inside its project with model metrics an
 - Football match results: Football-Data.co.uk public CSV files
 - Netflix catalog: TidyTuesday Netflix titles dataset
 - Airbnb listings: Inside Airbnb public New York City listings data
+- Customer churn: IBM Telco Customer Churn sample dataset
 
 The scripts download public datasets at runtime. If a source is temporarily unavailable, download the dataset manually and update the file path in the relevant script.
 
