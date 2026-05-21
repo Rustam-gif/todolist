@@ -1,17 +1,28 @@
 # Data Science Portfolio Projects
 
-This repository rebuilds several lost data science projects as clean, reproducible portfolio case studies. Each project is designed to show a specific part of the data science workflow: data loading, cleaning, feature engineering, exploratory analysis, modeling, evaluation, and business interpretation.
+A collection of reproducible data science and machine learning projects focused on practical business questions, clean analysis, model evaluation, and clear interpretation.
 
-> Repository note: this repo was originally named `todolist`. For a stronger GitHub profile, rename it to `data-science-portfolio` or `data-science-projects` in GitHub settings.
+> Repository note: this repo is currently named `todolist`. For a stronger employer-facing profile, rename it to `data-science-portfolio` or `data-science-projects` in GitHub settings.
 
 ## Projects
 
 | Project | Focus | Skills shown |
 | --- | --- | --- |
-| Football Match Outcome Prediction | Predict English Premier League match results from historical form | pandas, feature engineering, classification, temporal validation |
-| Netflix Content Strategy Analysis | Analyze Netflix catalog trends and classify content type from metadata | EDA, text features, logistic regression, content analytics |
-| Airbnb Price Intelligence | Estimate NYC Airbnb listing prices and identify pricing drivers | data cleaning, regression, categorical encoding, model evaluation |
-| Customer Churn ML Pipeline | Predict telecom customer churn and explain the strongest churn drivers | preprocessing pipelines, imbalanced classification, ROC-AUC, feature importance |
+| [Football Match Outcome Prediction](projects/football-match-outcome-prediction) | Predict English Premier League match results from historical form | pandas, feature engineering, classification, temporal validation |
+| [Netflix Content Strategy Analysis](projects/netflix-content-strategy) | Analyze Netflix catalog trends and classify content type from metadata | EDA, text features, logistic regression, content analytics |
+| [Airbnb Price Intelligence](projects/airbnb-price-intelligence) | Estimate NYC Airbnb listing prices and identify pricing drivers | data cleaning, regression, categorical encoding, model evaluation |
+| [Customer Churn ML Pipeline](projects/customer-churn-ml-pipeline) | Predict telecom customer churn and explain the strongest churn drivers | preprocessing pipelines, imbalanced classification, ROC-AUC, feature importance |
+
+## Why this repository matters
+
+Each project is built around a realistic question an analyst or data scientist might answer at work:
+
+- Which football teams are more likely to win based on recent form?
+- What patterns define the Netflix catalog?
+- Which listing features influence Airbnb prices?
+- Which customers are most likely to churn?
+
+The goal is not only to train models, but to show the full workflow: data loading, cleaning, feature engineering, baseline comparison, model evaluation, and business interpretation.
 
 ## How to run
 
@@ -48,9 +59,14 @@ Each script creates a `reports/` folder inside its project with model metrics an
 
 The scripts download public datasets at runtime. If a source is temporarily unavailable, download the dataset manually and update the file path in the relevant script.
 
-## Portfolio positioning
+## Skills represented
 
-These projects are intentionally practical. They are meant to show that I can take a real-world question, structure the data, build a baseline model, evaluate it honestly, and explain what the results mean for a product or business decision.
+- Python data analysis with pandas and NumPy
+- Data cleaning and feature engineering
+- Classification and regression modeling with scikit-learn
+- Model evaluation with accuracy, precision, recall, F1, ROC-AUC, RMSE, MAE, and R2
+- Baseline comparison and interpretable reporting
+- Writing project documentation for technical and non-technical readers
 
 ## Next improvements
 
